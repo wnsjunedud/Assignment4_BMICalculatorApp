@@ -38,8 +38,8 @@
             this.MetricTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.KiloTextBox = new System.Windows.Forms.TextBox();
             this.MeterTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.BMILabel = new System.Windows.Forms.Label();
             this.BMITextBox = new System.Windows.Forms.TextBox();
             this.CalculateButton = new System.Windows.Forms.Button();
@@ -170,6 +170,15 @@
             this.MeterTextBox.TabIndex = 4;
             this.MeterTextBox.Text = "meter";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 66);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "My Weight";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -179,15 +188,6 @@
             this.label2.Size = new System.Drawing.Size(139, 66);
             this.label2.TabIndex = 2;
             this.label2.Text = "My Height";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 66);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "My Weight";
             // 
             // BMILabel
             // 

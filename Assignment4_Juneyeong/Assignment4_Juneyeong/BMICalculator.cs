@@ -36,7 +36,6 @@ namespace Assignment4_Juneyeong
         public float BMI { get; set; }
         public BMICalculatorForm()
         {
-
             InitializeComponent();
         }
 
@@ -66,22 +65,6 @@ namespace Assignment4_Juneyeong
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            //    var TheButton = sender as Button;
-            //    int ButtonValue;
-            //    bool Result = int.TryParse(TheButton.Text, out ButtonValue);
-
-            //    if (Result)
-            //    {
-
-            //    }
-            //    else if (Result)
-            //    {
-
-            //    }
-            //    else
-            //    {
-            //        BMITextBox.Text = "Error";
-            //    }
             BMITextBox.Visible = true;
 
             float BMI = 0;
