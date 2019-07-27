@@ -202,7 +202,7 @@
             // BMITextBox
             // 
             this.BMITextBox.BackColor = System.Drawing.Color.Beige;
-            this.BMITextBox.Location = new System.Drawing.Point(65, 291);
+            this.BMITextBox.Location = new System.Drawing.Point(65, 290);
             this.BMITextBox.Name = "BMITextBox";
             this.BMITextBox.ReadOnly = true;
             this.BMITextBox.Size = new System.Drawing.Size(179, 69);
@@ -224,7 +224,7 @@
             // 
             // MultiLineTextBox
             // 
-            this.MultiLineTextBox.Location = new System.Drawing.Point(25, 339);
+            this.MultiLineTextBox.Location = new System.Drawing.Point(25, 338);
             this.MultiLineTextBox.Multiline = true;
             this.MultiLineTextBox.Name = "MultiLineTextBox";
             this.MultiLineTextBox.Size = new System.Drawing.Size(241, 62);
